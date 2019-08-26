@@ -165,8 +165,8 @@ class Conversation extends Component {
 
           <div className="message-typer">
             <form>
-              <textarea className="message form-control" placeholder="Type and hit Enter" onKeyPress={this.sendMessage}>
-              </textarea>
+              <input className="message form-control" placeholder="Type and hit Enter" onKeyPress={this.sendMessage}>
+              </input>
             </form>
           </div>
         </div>

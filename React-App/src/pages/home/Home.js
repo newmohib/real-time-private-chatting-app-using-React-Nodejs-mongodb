@@ -83,11 +83,11 @@ class Home extends Component {
         </div>
         <header className="app-header">
           <nav className="navbar navbar-expand-md">
-            <h4>Hello {this.state.username} </h4>
+            <h4 className="text-capitalize" >{this.state.username} </h4>
           </nav>
           <ul className="nav justify-content-end">
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={this.logout}>Logout</a>
+              <button className="btn btn-primary nav-link" onClick={this.logout}>Logout</button>
             </li>
           </ul>
         </header>

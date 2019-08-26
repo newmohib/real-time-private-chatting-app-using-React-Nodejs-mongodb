@@ -67,6 +67,7 @@ class Registration extends Component {
   }
 
   handleInputChange = (event) => {
+    event.preventDefault();
     this.setState({
       [event.target.name]: event.target.value
     });

@@ -21,7 +21,7 @@ class Authentication extends Component {
     return (
       <div className="container">
         <div className = {`overlay auth-loading ${this.state.loadingState ? '' : 'visibility-hidden'}`}>
-          <h1>Loading</h1>
+          <h1>Loading...</h1>
         </div>
         <div className="authentication-screen">
           <Tabs variant="pills" defaultActiveKey = "login" >
